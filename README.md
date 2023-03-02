@@ -10,7 +10,7 @@ I usually don't enjoy column/row stagger (in this case on the pinky and thumb ke
 - hotswap (only!)
 - puck/tenting support
 - wireless (only!)
-- keymap [here](keymap/)
+- keymap [here](keymap/README.md)
 - PCB [here](pcb/)
 - zmk repo [here](https://github.com/kunsteak/zmk-config-obelisk)
 
