@@ -301,7 +301,6 @@ path {
 <text x="450.0" y="1036.0" class="tap">4</text>
 <rect rx="6.0" ry="6.0" x="482.0" y="1010.0" width="56.0" height="52.0" class=""/>
 <text x="510.0" y="1036.0" class="tap">5</text>
-<text x="510.0" y="1057.0" class="hold">,</text>
 <rect rx="6.0" ry="6.0" x="542.0" y="1010.0" width="56.0" height="52.0" class=""/>
 <text x="570.0" y="1036.0" class="tap">6</text>
 <rect rx="6.0" ry="6.0" x="602.0" y="1010.0" width="56.0" height="52.0" class="held"/>
@@ -353,9 +352,9 @@ path {
 <rect rx="6.0" ry="6.0" x="362.0" y="1234.0" width="56.0" height="52.0" class="ghost"/>
 <rect rx="6.0" ry="6.0" x="422.0" y="1234.0" width="56.0" height="52.0" class="held"/>
 <text x="450.0" y="1260.0" class="held tap">←</text>
+<text x="450.0" y="1281.0" class="held hold">TAB</text>
 <rect rx="6.0" ry="6.0" x="482.0" y="1234.0" width="56.0" height="52.0" class=""/>
 <text x="510.0" y="1260.0" class="tap">↓</text>
-<text x="510.0" y="1281.0" class="hold">,</text>
 <rect rx="6.0" ry="6.0" x="542.0" y="1234.0" width="56.0" height="52.0" class=""/>
 <text x="570.0" y="1260.0" class="tap">→</text>
 <text x="570.0" y="1281.0" class="hold">SCRS</text>
