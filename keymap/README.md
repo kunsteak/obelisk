@@ -1,3 +1,333 @@
 ![](my_keymap.svg)
 
-Edit this keymap [here](https://caksoylar.github.io/keymap-drawer?keymap_yaml=H4sIAAAAAAAC_8VZ23raOBC-z1OoYQ9t1xCgCU3odncDTdpuIckGsm23B1bYMvaHsfzJcgmbtpe53sMb5klWku3gA0NIWkIvUmtmNPPPaH5ZyAVE-8Sx_SEakskIe2sOntCA19cQooxbtDcdI-R7js3riLOAqDGjY7-OqupZp04wcsVwSw25FYz6SikcEOZLB7utSuingBxichR4HmHItD8QdLdcKqMiKpc27ymLIjpDItL6uoas8D8-8UgdDSzqc_QpZdOKjJrd1npG9TRS7ba6WdWTSPX05HlWNS9oATF7YGWxbynsO9fH_gxGcQJjP4Qzno9dld2iIxIhr6iqV7JVfx55OThpZ_13IlXndbua1R1PdZWsrnup69yk3CnMWwrzDap9AIPYm4N9d07OzXypClHzp-t2FFu2957livpsP65PrqZ7R4Bmt1VNacR4Gez6HQj_EpC3AfktkmofgPA9IP_jRpAX5NJvgPNfATm03C--oK5fhz0NAEEpkmtZxStgwuuMfCZhOMOuDzi4qU5Q5CSlkmxfBmnuAAB-AeSF1ZPmOwDCfUD-8zJJ8yfg_BtA_m02qkUcI2PzfuUE6gEI3r5dAP5HYPLnRch0ReqLiY_lISXDnqW8coD4PwLyn1ZPnrsAhHuA_GyZ5FnQ94we-wxM7a2cOm8ABO8A-acFsl0dccRhcRm8KQHxNUD-aPXEqQAQqoD8wTKJs7FA0xQBAD8A8vrKqbMJINgC5DVA_nhOdWb_5IF_1Ty-HoHyL57OMviz12lCh_LuLnT6PYBVt8ij5lF8qD7q5K4LLs7_ARA2pj9Ll8IouDZP9loQpib0U2f_5ZNrbOvLZ9bF-d-RWZgnCOni_D8gpYvzf-PLheZx_lLioLvIS2oO0eTl0XU1WbY1ussgW6N7dAzdLTS6B6-6N3v13gLXvsqZ4DZOeouJG4eH3dXfLVwNYsFsus3W8SKk2W1VvupCCvGaTkd9qq66C-hARCRMxpSWXh29qWno4TsNDYX1QzEruhdHb8Rp8J1yGhs-1NB2ZLg917AiXFZinzvzTYXTSuy1PNO0gNo08Ank_7jZepGcJ17C6RCJ_FqQbQEdCg5iTlOVSSQcvZEuZ4plmpNIuEHOMdZQNTbtXOFX2FZi43A_zxsXUMMJCKeUW9kyXSYgEeE66lPO6ShVg7bysibb0fbRgBIf2S6nYkjQuk5d0x4EojY2ddeRTg2ywckpF45OEebKKPSJqKlGY9L3bU7urBkMj3vhfNl7WGxzriEEDnV7XH3BIaxnEWwQdvnxBjO9x7BhBwJarVSOJL6OHcHQihKobu6J5q7WEuOxGG-rse26wq-HDWWTEY1j0ZBMpH6rdjlip3FINZokR2JaraxGju2Snu9h3XYHEpH8ykQDPo0YeZzKxNwH4Vx_hB1HyoRVKJAfrnoD7E1NPgx6Pp_IbD8qPm_cRyZ1OcKugfpYHw4YDcSjrCIT84lum7auFsdH9zfCz2EfBuhMPcl_cnbRxCPbERl19tvUpcVjMggczLSmmEUd7Gstu0_CJUbSQGsT16HaSDzKVMmjtDff_kuuxqZ3mlEMCXNVXVzKRK5TreyYIhPLT5jSU4_bI-GlRQZ23xZFmCQ82Y5TR4XqZnWnGkUW3RnVwiAmDhwuFwXJOglvcdqM6DyZd-jGrJnbJp569zmjQ4G-oO_oum5mFcWxbXCxipVs4LDgWNeJWAxTPKq2kywgfhJBKZTncOiGeaVLdUQTmaUdSqmW8K0EMxI1jCsDhK-4u7L61MXOvXwwZZGKFs7JhzPNMlS8cgqI2i3O0q2AXd2igvUj2zCcRHsZdGS7WHRSH_tEUi1tMk0tXnuZldpIxN8-cS6TkVFKSpSlwpjI84HcCB3j0WxUPseM51tmbIltDcq5OlV4WGyfRcrUvhZazYMfNgzHnqZILjvbEtg2fMs2OTHCxMIqJpNT07TwWdpHj_Gss5mUrcSUTayNmv0FC4QDTvNO8ziu69fC7kDUaF7poDrZ7pSe-aIlyxUK5hZtO1OzmctniL2NJfZgD3Mr4W7m5pLsrQHDuS3QpW7cOP8DJ7_5iQ8hAAA%3D)
+Paste the contents of this code block into [keymap-drawer](https://caksoylar-keymap-drawer-streamlitapp-2a0rau.streamlit.app)
+
+```
+# obelisk keymap
+layout:
+  ortho_layout:
+    split: true
+    rows: 2
+    columns: 5
+    thumbs: 2
+layers:
+  AL1:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: "L", h: "CTL" }
+    - { t: "G", h: "ALT" }
+    - { t: "D", h: "GUI" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "H", h: "GUI" }
+    - { t: "U", h: "ALT" }
+    - { t: "O", h: "CTL" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "I", h: "NUM" }
+    - { t: "S", h: "SYM2" }
+    - { t: "R", h: "SYM1" }
+    - { t: "T", h: "SYS" }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "N", h: "SYS" }
+    - { t: "E", h: "SYM1" }
+    - { t: "A", h: "SYM2" }
+    - { t: "C", h: "NUM" }
+    # thumbs
+    - { t: "SPC", h: "MEH" }
+    - { t: "SHFT", h: "" }
+    - { t: "REP", h: "" }
+    - { t: "AL2", h: "" }
+  AL2:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: "V", h: "" }
+    - { t: "W", h: "" }
+    - { t: "M", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "F", h: "" }
+    - { t: "'", h: "" }
+    - { t: "Z", h: "" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "Q", h: "" }
+    - { t: "J", h: "" }
+    - { t: "P", h: "" }
+    - { t: "K", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "B", h: "" }
+    - { t: ".", h: "," }
+    - { t: "X", h: "" }
+    - { t: "Y", h: "" }
+    # thumbs
+    - { t: "trans", h: "" }
+    - { t: "trans", h: "" }
+    - { t: "trans", h: "" }
+    - { t: "AL2U", h: "" }
+  SYM1:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: "!", h: "" }
+    - { t: "@", h: "" }
+    - { t: "#", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "&", h: "" }
+    - { t: "*", h: "" }
+    - { t: "?", h: "" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "`", h: "" }
+    - { t: "$", h: "" }
+    - { t: "%", h: "", type: held }
+    - { t: "^", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "_", h: "" }
+    - { t: "\\", h: "", type: held }
+    - { t: "|", h: "" }
+    - { t: "~", h: "" }
+    # thumbs
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "RGUI", h: "" }
+  SYM2:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: "", h: "" }
+    - { t: "<", h: "" }
+    - { t: ">", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "(", h: "" }
+    - { t: ")", h: "" }
+    - { t: "{", h: "" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "", h: "" }
+    - { t: "", h: "", type: held }
+    - { t: "~", h: "" }
+    - { t: "_", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "[", h: "" }
+    - { t: "]", h: "" }
+    - { t: "}", h: "", type: held }
+    - { t: "", h: "" }
+    # thumbs
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "RGUI", h: "" }
+  NUM:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: ".", h: "" }
+    - { t: ",", h: "" }
+    - { t: ";", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "1", h: "" }
+    - { t: "2", h: "" }
+    - { t: "3", h: "" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "/", h: "", type: held }
+    - { t: "-", h: "" }
+    - { t: "+", h: "" }
+    - { t: ":", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "4", h: "" }
+    - { t: "5", h: "" }
+    - { t: "6", h: "" }
+    - { t: "=", h: "", type: held }
+    # thumbs
+    - { t: "SHFT", h: "" }
+    - { t: "=", h: "" }
+    - { t: "", h: "" }
+    - { t: "GUI", h: "" }
+  SYS:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: "ESC", h: "" }
+    - { t: "PTAB", h: "" }
+    - { t: "NTAB", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "CPY", h: "PST" }
+    - { t: "↑", h: "" }
+    - { t: "BSPC", h: "" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "TAB", h: "" }
+    - { t: "DEL", h: "" }
+    - { t: "BCK", h: "" }
+    - { t: "FWD", h: "", type: held }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "←", h: "", type: held }
+    - { t: "↓", h: "" }
+    - { t: "→", h: "SCRS" }
+    - { t: "ENT", h: "" }
+    # thumbs
+    - { t: "SHFT", h: "" }
+    - { t: "ALT", h: "" }
+    - { t: "ALT", h: "" }
+    - { t: "GUI", h: "" }
+  BT:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "", type: ghost }
+    - { t: "BTPRV", h: "" }
+    - { t: "BTNXT", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "", type: ghost }
+    # left home five (1.0 - 1.4)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "BOOT", h: "" }
+    - { t: "", h: "", type: ghost }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "", type: ghost }
+    - { t: "BOOT", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "BTCLR", h: "" }
+    # thumbs
+    - { t: "AL1", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+
+combos:
+  # Numbers
+  - { p: [6, 7], k: "7", layers: [NUM] }
+  - { p: [7, 8], k: "8", layers: [NUM] }
+  - { p: [16, 17], k: "9", layers: [NUM] }
+  - { p: [17, 18], k: "0", layers: [NUM] }
+  # Mouse
+  - { p: [16, 17], k: "RCLK", layers: [SYS] }
+  - { p: [6, 7], k: "LCLK", layers: [SYS] }
+  # Operators
+  - { p: [7, 8], k: "BSPC", layers: [AL1] }
+  - { p: [17, 18], k: "ENT", layers: [AL1] }
+  - { p: [1, 2], k: "ESC", layers: [AL1] }
+  - { p: [11, 12], k: "TAB", layers: [AL1] }
+  # Bluetooth
+  - { p: [16, 18], k: "BT", a: bottom, layers: [SYM1] }
+
+# this goes into the "configuration" code/text box at the bottom of the website!
+draw_config:
+  append_colon_to_layer_header: true
+  arc_radius: 6.0
+  arc_scale: 1.0
+  combo_h: 26.0
+  combo_w: 28.0
+  inner_pad_h: 2.0
+  inner_pad_w: 2.0
+  key_h: 56.0
+  key_rx: 6.0
+  key_ry: 6.0
+  key_w: 60.0
+  line_spacing: 1.2
+  outer_pad_h: 56.0
+  outer_pad_w: 30.0
+  small_pad: 5.0
+  split_gap: 30.0
+  svg_style: |
+    /* font and background color specifications */
+    svg {
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        font-size: 14px;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        fill: #24292e;
+    }
+
+    /* default key styling */
+    rect {
+        fill: #f6f8fa;
+        stroke: #c9cccf;
+        stroke-width: 1;
+    }
+
+    /* color accent for combo boxes */
+    rect.combo {
+        fill: #cdf;
+    }
+
+    /* color accent for held keys */
+    rect.held, rect.combo.held {
+        fill: #fdd;
+    }
+
+    /* color accent for ghost (optional) keys */
+    rect.ghost, rect.combo.ghost {
+        fill: #fff0;
+        stroke-width: 0;
+    }
+
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+
+    /* styling for layer labels */
+    text.label {
+        font-weight: bold;
+        text-anchor: start;
+        stroke: white;
+        stroke-width: 2;
+        paint-order: stroke;
+    }
+
+    /* styling for combo tap, and key hold/shifted label text */
+    text.combo, text.hold, text.shifted {
+        font-size: 11px;
+    }
+
+    text.hold {
+        text-anchor: middle;
+        dominant-baseline: auto;
+    }
+
+    text.shifted {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+
+    /* styling for hold/shifted label text in combo box */
+    text.combo.hold, text.combo.shifted {
+        font-size: 8px;
+    }
+
+    /* styling for combo dendrons */
+    path {
+        stroke-width: 1;
+        stroke: gray;
+        fill: none;
+    }
+```
