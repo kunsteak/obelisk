@@ -1,6 +1,6 @@
 ![](my_keymap.svg)
 
-Paste the contents of this code block into [keymap-drawer](https://caksoylar-keymap-drawer-streamlitapp-2a0rau.streamlit.app)
+Paste the contents of the following code block into [keymap-drawer](https://caksoylar-keymap-drawer-streamlitapp-2a0rau.streamlit.app) to edit the keymap.
 
 ```
 # obelisk keymap
